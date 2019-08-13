@@ -1,0 +1,7 @@
+C:\Users\Rodolfo Soares\source\repos\AED\obj\Debug\AED.csprojAssemblyReference.cache
+C:\Users\Rodolfo Soares\source\repos\AED\obj\Debug\AED.csproj.CoreCompileInputs.cache
+C:\Users\Rodolfo Soares\source\repos\AED\bin\Debug\AED.exe.config
+C:\Users\Rodolfo Soares\source\repos\AED\bin\Debug\AED.exe
+C:\Users\Rodolfo Soares\source\repos\AED\bin\Debug\AED.pdb
+C:\Users\Rodolfo Soares\source\repos\AED\obj\Debug\AED.exe
+C:\Users\Rodolfo Soares\source\repos\AED\obj\Debug\AED.pdb
