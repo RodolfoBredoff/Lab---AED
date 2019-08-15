@@ -13,6 +13,10 @@ namespace AED
         {
             Questoes.exercicio2();
             Console.ReadLine();
+
+            Questoes.exercicio2Parte2();
+            Console.ReadLine();
         }
+
     }
 }

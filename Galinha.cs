@@ -8,6 +8,14 @@ namespace AED
 {
     public class Galinha:Ave
     {
+        public void Acordar()
+        {
+            Console.WriteLine("galinha acordando");
+        }
 
+        public void Comer()
+        {
+            Console.WriteLine("COmendo...");
+        }
     }
 }

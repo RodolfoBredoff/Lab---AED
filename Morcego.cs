@@ -6,11 +6,11 @@ using System.Threading.Tasks;
 
 namespace AED
 {
-    public class Morcego:Mamifero,IVoador
+    public class Morcego : Mamifero, IVoador
     {
-        public void voar()
+        public void Voar()
         {
-
+            Console.WriteLine("Voando...");
         }
     }
 }

@@ -10,19 +10,23 @@ namespace AED
     {
         public string nome;
 
+        
+
         public void Acordar()
         {
-
+            Console.WriteLine("Acordando...");
         }
 
         public void Comer()
         {
-
+            Console.WriteLine("Comendo...");
         }
 
         public void Dormir()
         {
-
+            Console.WriteLine("Dormindo...");
         }
+
+        
     }
 }

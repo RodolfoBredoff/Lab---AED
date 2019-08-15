@@ -6,8 +6,8 @@ using System.Threading.Tasks;
 
 namespace AED
 {
-    interface IVoador
+    public interface IVoador
     {
-        void voar();
+        void Voar();
     }
 }

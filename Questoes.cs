@@ -1,8 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace AED
 {
@@ -39,6 +37,41 @@ namespace AED
         public static void exercicio2Parte2()
         {
 
+            List<Animal> animais = new List<Animal>();
+            Morcego morcego = new Morcego();
+            Galinha galinha = new Galinha();
+            animais.Add(morcego);
+            animais.Add(morcego);
+            animais.Add(morcego);
+            animais.Add(morcego);
+            animais.Add(morcego);
+            animais.Add(galinha);
+            animais.Add(galinha);
+            animais.Add(galinha);
+            animais.Add(galinha);
+            animais.Add(galinha);
+
+            foreach (Animal animal in animais)
+            {
+                if(animal.GetType().ToString().Contains("Galinha"))
+                {
+                    Console.WriteLine("Galinha");
+                    animal.Acordar();
+                    animal.Comer();
+                }
+                else
+                {
+                    Console.WriteLine("Morcego");
+                    animal.Acordar();
+                    animal.Comer();
+
+                    Morcego aux = (Morcego)animal;
+                    aux.Voar();
+                }
+            }
+            
+
+            Console.ReadLine();
         }
     }
 }
